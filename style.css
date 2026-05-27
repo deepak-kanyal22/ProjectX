@@ -3,7 +3,7 @@
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 15%, rgba(148, 187, 233, 1) 67%);
 } */
 
-body{
+body {
     background: rgb(29,40,41);
     background: -moz-linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11%, rgba(19,19,20,1) 41%, rgba(19,19,20,1) 58%, rgba(24,30,31,1) 85%, rgba(29,40,41,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11%, rgba(19,19,20,1) 41%, rgba(19,19,20,1) 58%, rgba(24,30,31,1) 85%, rgba(29,40,41,1) 100%);
@@ -13,14 +13,14 @@ body{
     padding: 3rem;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +44,11 @@ header{
      transition: 0.3s;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
      background-color: #76b0ab37;
 }
 
-main{
+main {
     overflow: hidden;
     display: flex;
     flex: 1;
@@ -57,11 +57,11 @@ main{
     min-height: 85vh;
 }
 
-.title-section{
+.title-section {
     margin-top: 3rem;
 }
 
-main h1{
+main h1 {
     text-align: center;
     font-size: 12rem;
     font-weight: 900;
@@ -70,4 +70,11 @@ main h1{
     background-image: linear-gradient(rgb(133, 133, 133), rgb(255, 255, 255));
     color: transparent;
     background-clip: text;
+}
+
+.location {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
 }
