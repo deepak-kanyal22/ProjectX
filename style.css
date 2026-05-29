@@ -129,3 +129,16 @@ main h1 {
     top: 30%;
     animation-delay: 0.8s;
 }
+
+@keyframes scroll-down {
+    0% {
+        opacity: 0;
+    }
+    30%,60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 90%;
+    }
+}
